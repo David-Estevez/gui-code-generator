@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setup(
     name='gui-code-generator',
     version='',
@@ -46,5 +49,6 @@ setup(
     license='',
     author='def',
     author_email='',
-    description=''
+    description='',
+    install_requires=requirements,
 )

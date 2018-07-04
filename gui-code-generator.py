@@ -90,6 +90,7 @@ if __name__ == \'__main__\':
     main()
 """
 
+
 @begin.start(auto_convert=True)
 @begin.logging
 def main(ui_file: 'UI to generate python code from'):
